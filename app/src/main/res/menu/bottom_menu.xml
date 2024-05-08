@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/forum_menu"
+        android:icon="@drawable/chat_item_menu"
+        android:iconTint="#2d2017"
+        android:title="Форум" />
+
+    <item
+        android:id="@+id/kr_menu"
+        android:icon="@drawable/kr_item_menu"
+        android:iconTint="#2d2017"
+        android:title="Работы" />
+
+    <item android:id="@+id/schedule_menu"
+        android:icon="@drawable/schedule_item_menu"
+        android:title="Расписание"
+        android:iconTint="#2d2017"/>
+
+    <item android:id="@+id/dictionary_menu"
+        android:icon="@drawable/dictionary_item_menu"
+        android:title="Словарь"
+        android:iconTint="#2d2017"/>
+
+</menu>
