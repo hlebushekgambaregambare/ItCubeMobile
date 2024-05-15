@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation_graph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.it_cubick_mao.ui.ProfileFragment"
+        android:label="profileFragment" />
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.example.it_cubick_mao.ui.ScheduleFragment"
+        android:label="scheduleFragment"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/dictionaryFragment"
+        android:name="com.example.it_cubick_mao.ui.DictionaryFragment"
+        android:label="dictionaryFragment"
+        tools:layout="@layout/fragment_dictionary" />
+    <fragment
+        android:id="@+id/krFragment"
+        android:name="com.example.it_cubick_mao.ui.KrFragment"
+        android:label="krFragment"
+        tools:layout="@layout/fragment_kr" />
+</navigation>

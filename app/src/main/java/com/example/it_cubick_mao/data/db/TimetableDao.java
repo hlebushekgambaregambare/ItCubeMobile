@@ -22,4 +22,9 @@ public interface TimetableDao {
 
     @Query("SELECT * FROM timetableentity")
     LiveData<List<TimetableEntity>> getAllTimetable();
+    @Query("SELECT * FROM timetableentity WHERE timetableId = :timetableId")
+    TimetableEntity getTimetableById(int timetableId);
+
+    @Query("SELECT * FROM timetableentity WHERE lessonName LIKE :lessonName")
+    TimetableEntity getLessonByName(String lessonName);
 }
